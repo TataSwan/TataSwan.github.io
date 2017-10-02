@@ -405,6 +405,8 @@ form .desktop-row {
     .benefits-heading {
         font-size: 18px;
         line-height: 22px;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .benefit-block-heading {
