@@ -195,6 +195,13 @@ form .desktop-row {
         width: 75%;
     }
 
+    header {
+        background-image: url(../images/header-bg-ipad.jpg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+    }
+
     /*header {*/
         /*background-position: 70% 50%;*/
     /*}*/
@@ -218,7 +225,7 @@ form .desktop-row {
     }
 
     .logo-section {
-        background-image: url(../images/header-bg.jpg);
+        background-image: url(../images/header-bg-ipad.jpg);
         background-repeat: no-repeat;
         background-position: center right;
         background-size: cover;
@@ -286,6 +293,13 @@ form .desktop-row {
 @media only screen and (max-width: 420px) {
     .mobile-disabled.desktop-row {
         display: none;
+    }
+
+    .logo-section {
+        background-image: url(../images/header-bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
     }
 
     form .mobile-row {
