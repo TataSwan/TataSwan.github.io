@@ -1,0 +1,346 @@
+.logo-section {
+    padding: 40px 0;
+}
+
+.header-info-block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    padding: 35px 170px 90px 205px;
+    vertical-align: bottom;
+    background: url(../images/header-info-block-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.main-info-block {
+    display: inline-block;
+    max-width: 950px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 3px;
+}
+
+.main-heading {
+    margin-bottom: 30px;
+    font: 68.86px/50.21px 'Roboto Bold';
+    text-transform: uppercase;
+}
+
+.info-block-text {
+    font: 26px/44px 'Roboto Regular';
+}
+
+.imortant-info-block-text {
+    display: block;
+    font-weight: bold;
+}
+
+.request-form {
+    position: relative;
+    display: inline-block;
+    max-width: 435px;
+    padding: 35px 20px 50px;
+    font-size: 0;
+    color: #000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .87);
+    border-radius: 3px;
+}
+
+.request-form-heading {
+    font: 25px/30px 'Roboto Bold';
+    color: #708dc8;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font: 17.55px/58.56px 'Roboto Regular';
+    color: #696969;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font: 17.55px/58.56px 'Roboto Regular';
+    color: #696969;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font: 17.55px/58.56px 'Roboto Regular';
+    color: #696969;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font: 17.55px/58.56px 'Roboto Regular';
+    color: #696969;
+}
+
+.request-form .form-input {
+    width: 40%;
+    padding: 0px 15px;
+    font: 17.55px/58.56px 'Roboto Regular';
+    color: #696969;
+    border: 1px solid #d3d5d6;
+    border-radius: 2px;
+}
+
+.request-form .first-name-input,
+.request-form  .password-input {
+    margin-right: 2%;
+}
+
+.request-form .email-input {
+    width: 89%;
+}
+
+.request-form-row {
+    margin: 23px 0;
+}
+
+.form-request-info {
+    font: 15.04px/41.26px 'Roboto Light';
+}
+
+.learn-more-btn {
+    width: 97%;
+    font: 25.1px/58.56px 'Roboto Bold';
+    color: #fff;
+    background-color: #7695d3;
+    border-radius: 3px;
+}
+
+.arrow-to-form {
+    position: absolute;
+    bottom: 40px;
+    right: -165px;
+}
+
+@media only screen and (max-width: 1582px) {
+    .header-info-block {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .arrow-to-form {
+        right: -45px;
+        width: 121px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .header-info-block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-info-block {
+        width: 60%;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .info-block-text {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .request-form-heading {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .request-form .form-input {
+        width: 35%;
+        font-size: 15px;
+        line-height: 50px;
+    }
+
+    .request-form .email-input {
+        width: 80%;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 15px;
+        line-height: 50px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 15px;
+        line-height: 50px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 15px;
+        line-height: 50px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 15px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .main-heading {
+        font-size: 40px;
+    }
+
+    .info-block-text {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .arrow-to-form {
+        right: -25px;
+        bottom: 60px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-section {
+        padding: 15px 0;
+    }
+
+    .header-info-block {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .main-heading {
+        margin-bottom: 10px;
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .main-info-block {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .info-block-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .request-form {
+        display: block;
+        width: 100%;
+        padding: 15px 10px;
+        margin: 15px auto 0;
+        box-sizing: border-box;
+    }
+
+    .request-form-row {
+        margin: 10px 0;
+    }
+
+    .request-form-heading {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .form-request-info {
+        width: 90%;
+        margin: 0 auto 5px;
+        line-height: 20px;
+    }
+
+    .learn-more-btn {
+        width: 90%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .arrow-to-form {
+        right: -15px;
+        bottom: 20px;
+        width: 60px;
+    }
+}
+
+main {
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.mistakes_header {
+    font: 48px/50.21px 'Roboto Medium';
+    color: #161c2a;
+}
+
+.mistakes-subheadeing {
+    margin: 70px auto;
+    font: 24px/36px 'Roboto Light';
+}
+
+.list-of-mistakes {
+    text-align: left;
+}
+
+.list-of-mistakes-item {
+    margin-bottom: 50px;
+}
+
+.list-of-mistakes-item-heading {
+    margin-bottom: 35px;
+    font: 26px/40px 'Roboto Medium';
+    color: #718ec8;
+}
+
+.list-of-mistakes-item-text,
+.mistakes-summary {
+    font: 20px/30px 'Roboto Light';
+}
+
+.mistakes-summary {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 15px 0;
+    }
+
+    .mistakes_header {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .mistakes-subheadeing {
+        margin: 10px auto;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .list-of-mistakes-item {
+        margin-bottom: 10px;
+    }
+
+    .list-of-mistakes-item-heading {
+        margin-bottom: 7px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .list-of-mistakes-item-text,
+    .mistakes-summary {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .mistakes-summary {
+        margin: 20px auto 10px;
+    }
+}
+
+.learn-more-payment {
+    background-color: #dadada;
+}
+
