@@ -1,3 +1,7 @@
+.mobile-visible {
+    display: none;
+}
+
 .logo-section {
     padding: 40px 0;
 }
@@ -108,7 +112,7 @@
     font: 25.1px/58.56px 'Roboto Bold';
     color: #fff;
     background-color: #7695d3;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .arrow-to-form {
@@ -199,7 +203,24 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .desktop-visible {
+        display: none;
+    }
+
+    .mobile-visible {
+        display: inline;
+    }
+
+    .logo {
+        width: 115px;
+    }
+
     .logo-section {
+        text-align: center;
         padding: 15px 0;
     }
 
@@ -210,26 +231,30 @@
 
     .main-heading {
         margin-bottom: 10px;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 39.58px;
+        line-height: 45.23px;
+        text-align: center;
     }
 
     .main-info-block {
         display: block;
         padding: 10px;
         width: 100%;
+        background: none;
     }
 
     .info-block-text {
         font-size: 16px;
         line-height: 20px;
+        text-align: center;
     }
 
     .request-form {
         display: block;
         width: 100%;
-        padding: 15px 10px;
-        margin: 15px auto 0;
+        padding: 10px;
+        margin: 0 auto;
+        background: none;
         box-sizing: border-box;
     }
 
@@ -238,26 +263,63 @@
     }
 
     .request-form-heading {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 17.82px;
+        line-height: 21.38px;
     }
 
     .form-request-info {
         width: 90%;
-        margin: 0 auto 5px;
-        line-height: 20px;
+        margin: -10px auto 5px;
+        font-size: 9px;
+        line-height: 29.4px;
+        color: #fff;
+    }
+
+    .request-form .form-input {
+        font-size: 12.51px;
+        line-height: 41.74px;
+        background: #d9d9d9;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 12.51px;
+        line-height: 41.74px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 12.51px;
+        line-height: 41.74px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 12.51px;
+        line-height: 41.74px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 12.51px;
+        line-height: 41.74px;
+    }
+
+    .request-form .email-input {
+        width: 82%;
     }
 
     .learn-more-btn {
-        width: 90%;
-        font-size: 20px;
-        line-height: 35px;
+        width: 92%;
+        font-size: 17.89px;
+        line-height: 41.74px;
     }
 
     .arrow-to-form {
-        right: -15px;
-        bottom: 20px;
-        width: 60px;
+        right: -10px;
+        bottom: 25px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .header-info-block {
+        padding-top: 100px;
+        background: #000 url(../images/header-info-block-bg-mobile.png) no-repeat top center;
+        background-size: contain;
     }
 }
 
@@ -309,13 +371,13 @@ main {
 
     .mistakes_header {
         font-size: 25px;
-        line-height: 35px;
+        line-height: 25px;
     }
 
     .mistakes-subheadeing {
         margin: 10px auto;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 13px;
+        line-height: 22px;
     }
 
     .list-of-mistakes-item {
@@ -324,14 +386,14 @@ main {
 
     .list-of-mistakes-item-heading {
         margin-bottom: 7px;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 22px;
+        line-height: 40px;
     }
 
     .list-of-mistakes-item-text,
     .mistakes-summary {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 13px;
+        line-height: 22px;
         text-align: justify;
     }
 
